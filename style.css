@@ -1,47 +1,32 @@
-.body{
-    width: 100%;
+.body {
     height: 50%;
     background-color: antiquewhite;
-   
- 
+    width: auto;
 }
-#top{
-    position: relative;
-    top: 5; 
+
+.nav {
+    background-color: aquamarine;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    justify-content: center;
+    font-size: large;
     height: 50px;
-    text-align: center;
-    
-}
-#top-left{
-    float: left;
-    width: 20%;
-    background-color: blue;
-    border-radius: 3px
-    
-}
-
-#tittle {
-    float: right;
-    width: 80%;
-    background-color: grey;
-    border-radius: 3px
-    
-}    
-
-#main-intro{
-    position: relative;
     align-items: center;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     width: 70%;
-    left: 10%;
-    padding-top: 20px;
+    gap: 1.5rem;
+    margin: auto;
+    padding-top: 25px;
 }
-#intro{
-    float: left;
-    width: 50%;
+
+.introduction .about {
     text-align: center;
-    padding-top: 100px;
-}
-#img{
-    float: right;
-    width: 40%;
+
 }
